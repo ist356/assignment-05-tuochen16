@@ -22,4 +22,5 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+I learned to use Python's Pandas library for data manipulation and conversion, as well as how to read data from a variety of sources and formats, including CSV files, and dynamically generate and manipulate data frames based on specific criteria such as year and geographic information. I also learned to save the processed data back to a CSV file for future use, maintaining data integrity throughout the process.
 
