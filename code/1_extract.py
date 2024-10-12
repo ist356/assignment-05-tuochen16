@@ -16,7 +16,7 @@ for year in years:
     col_year.to_csv(f'cache/col_{year}.csv', index=False)
 url = "https://docs.google.com/spreadsheets/d/14wvnQygIX1eCVo7H5B7a96W1v5VCg6Q9yeRoESF6epw/export?format=csv"
 state_table = pd.read_csv(url)
-state_table.to_csv('cache/state_table.csv', index=False)
+state_table.to_csv('cache/state_table.csv', index=False) 
 
 
 

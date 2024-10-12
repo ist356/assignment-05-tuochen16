@@ -29,7 +29,7 @@ def upload_file(file_name, bucket_name, object_name=None):
 
     # If S3 object_name was not specified, use file_name
     if object_name is None:
-        object_name = os.path.basename(file_name)
+        object_name = os.path.basename(file_name) 
 
     # Upload the file
     try:

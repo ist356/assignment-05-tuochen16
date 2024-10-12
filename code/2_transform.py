@@ -33,7 +33,7 @@ st.write(annual_salary_adjusted_by_location_and_age)
 # Annual Salary adjusted by location and education
 annual_salary_adjusted_by_location_and_education = combined.pivot_table(index='_full_city', columns='What is your highest level of education completed?', values='_annual_salary_adjusted', aggfunc='mean')
 annual_salary_adjusted_by_location_and_age.to_csv('cache/annual_salary_adjusted_by_location_and_education.csv')
-st.write(annual_salary_adjusted_by_location_and_education)
+st.write(annual_salary_adjusted_by_location_and_education) 
 
 
 
