@@ -21,11 +21,11 @@ def upload_file(file_name, bucket_name, object_name=None):
         verify=False
     ).meta.client
 
-    # create bucket if it does not exist
+    # create bucket if it does not exist 
     response = s3.list_buckets()
     buckets = [bucket['Name'] for bucket in response['Buckets']]
     if bucket_name not in buckets:
-        s3.create_bucket(Bucket=bucket_name)   
+        s3.create_bucket(Bucket=bucket_name)    
 
     # If S3 object_name was not specified, use file_name
     if object_name is None:

@@ -11,7 +11,7 @@ for year in survey_data['year'].unique():
     col = pd.read_csv(f'cache/col_{year}.csv')
     cols.append(col)
 # combine all col data into one dataframe
-col_data = pd.concat(cols)
+col_data = pd.concat(cols) 
 # clean the country column
 survey_data['_country'] = survey_data['What country do you work in?'].apply(pl.clean_country_usa)
 # lookup the state code from the state name

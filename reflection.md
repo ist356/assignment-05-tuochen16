@@ -12,7 +12,7 @@ Reflection is a key activity of learning. It helps you build a strong metacognit
 - Flex your recall muscles. You might have to review class notes / assigned readings to write your reflection and get the terminology correct.
 - Your reflection is for **you**. Yes I make you write them and I read them, but you are merely practicing to become a better self-directed learner. If you read your reflection 1 week later, does what you wrote advance your learning?
 
-Examples:
+Examples: 
 
 - **Poor Reflection:**  "I don't understand loops."   
 **Better Reflection:** "I don't undersand how the while loop exits."   
@@ -22,5 +22,5 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-I learned to use Python's Pandas library for data manipulation and conversion, as well as how to read data from a variety of sources and formats, including CSV files, and dynamically generate and manipulate data frames based on specific criteria such as year and geographic information. I also learned to save the processed data back to a CSV file for future use, maintaining data integrity throughout the process. 
+I learned to use Python's Pandas library for data manipulation and conversion, as well as how to read data from a variety of sources and formats, including CSV files, and dynamically generate and manipulate data frames based on specific criteria such as year and geographic information. I also learned to save the processed data back to a CSV file for future use, maintaining data integrity throughout the process.  
 
