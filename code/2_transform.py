@@ -26,11 +26,9 @@ combined["_annual_salary_cleaned"] = combined["What is your annual salary? (You'
 combined['_annual_salary_adjusted'] = combined.apply(lambda row: row["_annual_salary_cleaned"] * (100 / row['Cost of Living Index']), axis=1)
 # save the combined data to a csv file
 combined.to_csv('cache/survey_dataset.csv', index=False)
-# Annual Salary adjusted by location and age
 annual_salary_adjusted_by_location_and_age = combined.pivot_table(index='_full_city', columns='How old are you?', values='_annual_salary_adjusted', aggfunc='mean')
 annual_salary_adjusted_by_location_and_age.to_csv('cache/annual_salary_adjusted_by_location_and_age.csv')
 st.write(annual_salary_adjusted_by_location_and_age)
-# Annual Salary adjusted by location and education
 annual_salary_adjusted_by_location_and_education = combined.pivot_table(index='_full_city', columns='What is your highest level of education completed?', values='_annual_salary_adjusted', aggfunc='mean')
 annual_salary_adjusted_by_location_and_age.to_csv('cache/annual_salary_adjusted_by_location_and_education.csv')
 st.write(annual_salary_adjusted_by_location_and_education) 
